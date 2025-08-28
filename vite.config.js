@@ -8,7 +8,7 @@ export default defineConfig({
     port: 8080,
     proxy: {
       '/products': 'http://localhost:8000',
-      '/clients': 'http://localhost:8000'
+      '/users': 'http://localhost:8000'
     },
   },
 })

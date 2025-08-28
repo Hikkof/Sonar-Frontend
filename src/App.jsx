@@ -1,11 +1,12 @@
 import { Products } from './components/Products.jsx';
 import { Users } from './components/Users.jsx';
 
+
 function App() {
     return (
         <div>
-            <Products/>
-            <Users/>
+            <a href="http://localhost:8080/products"><Products/></a>
+            <a href="http://localhost:8080/users"><Users/></a>
         </div>
     );
 }
